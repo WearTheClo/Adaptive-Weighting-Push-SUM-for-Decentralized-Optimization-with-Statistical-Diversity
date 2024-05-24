@@ -1,2 +1,1 @@
-# Adaptive-Weighting-Push-SUM-for-Decentralized-Optimization-with-Statistical-Diversity
-Code of paper "Adaptive Weighting Push-SUM for Decentralized Optimization with Statistical Diversity"
+我无法正常连接到GitHub，因此只能上传一个zip压缩文件作为代替，请自行下载并解压
