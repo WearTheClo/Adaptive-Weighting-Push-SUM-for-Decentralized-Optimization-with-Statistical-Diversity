@@ -29,10 +29,8 @@ def work_process(rank,args):
     ngpus_per_node = torch.cuda.device_count()
     gpu_id = args.rank % ngpus_per_node
 
-    #torch.cuda.set_device(gpu_id) 
-    #device=torch.device('cuda:'+str(gpu_id))
-    torch.cuda.set_device(3) 
-    device=torch.device('cuda:'+str(3))
+    torch.cuda.set_device(gpu_id) 
+    device=torch.device('cuda:'+str(gpu_id))
     distributed.init_process_group(
         backend=args.backend,
         init_method=args.init_method,
